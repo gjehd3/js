@@ -1,0 +1,11 @@
+V) VariableEnvironment
+: 현재 컨텍스트 내의 식별자들에 대한 정보, 외부 환경 정보
+: 최초 실행 시의 스냅샷 유지
+: V를 복사하여 L을 생성 이후 L을 주로 활용
+
+L) LexicalEnvironment
+: environmentRecord와 outer-EnvironmentReference로 구성
+: 컨텍스트를 수성하는 환경 정보들을
+사전에서 접하는 것처럼 모아둔 것
+ex) 현재 컨텍스트 내부에는 a, b, c와 같은 식별자가 있고
+외부 정보로는 D를 참조하도록 구성돼 있다.
