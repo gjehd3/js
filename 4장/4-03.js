@@ -8,4 +8,4 @@ var newArr = [10, 20, 30].map(function(currentValue, index) {
   // 10 0
   // 20 1
   // 30 2
-  // [15, 25, 35]
+  // [15, 25, 35]  
