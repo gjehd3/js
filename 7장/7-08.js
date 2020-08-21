@@ -25,4 +25,4 @@ var extendClass1 = function(SuperClass, SubClass, subMethods) {
     Rectangle.call(this, width, width);
   });
   var sq = new Square(5);
-  console.log(sq.getArea()); // 25
+  console.log(sq.getArea()); // 25 
